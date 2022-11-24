@@ -1,0 +1,11 @@
+{
+  "name": "@quentincaffeino/godot-engine",
+  "version": "3.5.0",
+  "description": "",
+  "bin": {
+    "godot": "./godot.js"
+  },
+  "scripts": {
+    "install": "echo 'this is run during install'"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "dependencies": {
+    "@quentincaffeino/godot-engine": "workspace:^3.5.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@quentincaffeino/godot-engine",
+  "version": "3.5.0",
+  "description": "",
+  "bin": {
+    "godot": "./godot.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@quentincaffeino/godot-engine-linux-headless-x64": "workspace:*",
+    "@quentincaffeino/godot-engine-linux-x32": "workspace:*",
+    "@quentincaffeino/godot-engine-linux-x64": "workspace:*",
+    "@quentincaffeino/godot-engine-windows-x64": "workspace:*"
+  }
+}

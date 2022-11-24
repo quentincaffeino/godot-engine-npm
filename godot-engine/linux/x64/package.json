@@ -1,0 +1,13 @@
+{
+  "name": "@quentincaffeino/godot-engine-linux-x64",
+  "version": "3.5.0",
+  "description": "",
+  "bin": "./Godot_v3.5-stable_x11.64",
+  "scripts": {},
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ]
+}

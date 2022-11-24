@@ -1,16 +1,3 @@
 {
-  "name": "@quentincaffeino/godot",
-  "version": "3.5.0",
-  "description": "",
-  "bin": "./dist/godot",
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "type": "module",
-  "scripts": {
-    "postinstall": "node ./postinstall.js"
-  },
-  "dependencies": {
-    "adm-zip": "0.5.9"
-  }
+  "private": true
 }

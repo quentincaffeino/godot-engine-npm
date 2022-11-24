@@ -1,0 +1,13 @@
+{
+  "name": "@quentincaffeino/godot-engine-windows-x64",
+  "version": "3.5.0",
+  "description": "",
+  "bin": "./Godot_v3.5-stable_win64_console.cmd",
+  "scripts": {},
+  "os": [
+    "windows"
+  ],
+  "cpu": [
+    "x64"
+  ]
+}
