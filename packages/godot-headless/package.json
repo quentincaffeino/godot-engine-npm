@@ -1,0 +1,39 @@
+{
+  "name": "@quentincaffeino/godot-engine-headless",
+  "version": "3.5.1",
+  "description": "godot engine headless",
+  "type": "module",
+  "files": [
+    "install.js",
+    "godot.json"
+  ],
+  "scripts": {
+    "prepublishOnly": "! [[ -d bin ]] || mv bin bin-tmp",
+    "prepack": "npm run prepublishOnly",
+    "postpublish": "! [[ -d bin-tmp ]] || mv bin-tmp bin",
+    "postpack": "npm run postpublish",
+    "install": "node ./install.js"
+  },
+  "dependencies": {
+    "adm-zip": "0.5.9",
+    "cli-progress": "3.11.2",
+    "easydl": "1.0.3",
+    "mkdirp": "1.0.4",
+    "pretty-bytes": "6.0.0",
+    "pretty-ms": "8.0.0",
+    "semver": "7.3.8"
+  },
+  "bin": {
+    "godot-headless": "./bin/godot"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "os": [
+    "linux",
+    "cygwin"
+  ],
+  "cpu": [
+    "x64"
+  ]
+}

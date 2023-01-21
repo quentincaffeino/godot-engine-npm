@@ -1,0 +1,13 @@
+{
+  "linux": {
+    "32": "Godot_v3.5.1-stable_x11.32.zip",
+    "64": "Godot_v3.5.1-stable_x11.64.zip"
+  },
+  "windows": {
+    "32": "Godot_v3.5.1-stable_win32.exe.zip",
+    "64": "Godot_v3.5.1-stable_win64.exe.zip"
+  },
+  "osx": {
+    "64": "Godot_v3.5.1-stable_osx.universal.zip"
+  }
+}
